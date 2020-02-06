@@ -34,8 +34,6 @@ public class ConvenienceImprovements {
         assertEquals(oldSwitch(TestEnum.OTHER), newSwitch(TestEnum.OTHER));
     }
 
-
-
     private double newSwitch(TestEnum test) {
         return switch (test) {
             case FIRST -> 1;
